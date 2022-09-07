@@ -6,7 +6,17 @@
 
 body {
   color: #444;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Lato", sans-serif;
 }
 
 .container {
@@ -37,6 +47,7 @@ nav a:link {
   color: #093a6c;
   margin-right: 20px;
   font-size: 24px;
+  font-family: "Lato", sans-serif;
 }
 
 nav a:link:last-child {

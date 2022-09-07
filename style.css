@@ -15,6 +15,10 @@ body {
   margin: 0 auto;
 }
 
+.container-products {
+  margin-top: 60px;
+}
+
 .main-header {
   background-color: #f4f4f4;
   padding: 20px 40px;
@@ -81,5 +85,54 @@ nav a:hover {
 }
 
 .button-img button:hover {
+  background-color: #d89747;
+}
+
+.titulo-categorias {
+  font-size: 24px;
+  text-align: center;
+}
+
+.mais-vendidos {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  text-align: center;
+}
+
+.img-products {
+  height: 250px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.stars {
+  margin-bottom: 25px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.price h4 {
+  font-size: 24px;
+}
+
+.price button {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #093a6c;
+  color: #f4f4f4;
+}
+
+.price button:hover {
   background-color: #d89747;
 }

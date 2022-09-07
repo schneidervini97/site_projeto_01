@@ -234,7 +234,7 @@ form button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .frete-pagamentos img {
@@ -255,4 +255,21 @@ form button:hover {
 .linha {
   background-color: #f4f4f4;
   height: 0.5px;
+}
+
+.cartoes-lojasegura {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.ebit {
+  margin-right: 20px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 30px;
 }
